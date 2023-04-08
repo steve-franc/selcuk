@@ -94,7 +94,7 @@ h2{
 
 h1{
   font-size: 30px;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .hero-box{
@@ -113,13 +113,12 @@ h1{
   justify-content: space-evenly;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .buttons{
   margin-top: 30px;
   width: 500px;
-  border: solid;
-  border-color: #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -130,15 +129,25 @@ h1{
 /*----------------more details------------*/
 
 .more-details{
-  width: 100vw;
-  background-color: white;
   text-align: center;
-  height: 60vh;
+  align-items: center;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .text-container{
-  margin-top: 10%;
+  height: 30vh;
+  text-align: center;
+  align-items: center;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
 }
+
 
 .CTA-black{
   padding-left: 62px;
@@ -150,7 +159,6 @@ h1{
   border-radius: 50px;
   border: none;
   font-weight: 600;
-  width: 217px;
 }
 
 /*--------------services------------*/
@@ -197,7 +205,18 @@ h1{
   object-fit: cover;
 }
 
-
+.CTA-service{
+  padding-left: 62px;
+  padding-right: 62px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border-radius: 50px;
+  border: none;
+  font-weight: 600;
+  width: 216px;
+}
 
 
 
@@ -210,12 +229,14 @@ h1{
   width: 100vw;
   text-align: center;
   padding-left: 40px;
+  margin-top: 50px;
 }
 
 .wrapper{
   display: flex;
   max-width: 1200px;
   position: relative;
+  margin-top: 50px;
 }
 .wrapper i{
   top: 50%;
@@ -236,7 +257,7 @@ h1{
   transform: translateY(-50%) scale(0.9);
 }
 .wrapper i:hover{
-  background: #f2f2f2;
+  background: #616161;
 }
 .wrapper i:first-child{
   left: -22px;
@@ -288,6 +309,7 @@ h1{
 .bottom{
   height: 50vh;
   text-align: center;
+  align-items: center;
   padding-top: 50px;
   display: flex;
   flex-direction: column;
