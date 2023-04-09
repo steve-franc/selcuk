@@ -65,8 +65,16 @@ nav img{
   border-radius: 50px;
   border: none;
   font-weight: 600;
+  cursor: pointer;
 }
 
+
+.CTA :hover{
+  background-color: black;
+  color: white;
+  border: solid;
+  border-color: white;
+}
 
 
 
@@ -159,6 +167,13 @@ h1{
   border-radius: 50px;
   border: none;
   font-weight: 600;
+  cursor: pointer;
+}
+
+.CTA-black :hover{
+  background-color: white;
+  border: solid;
+  color: black;
 }
 
 /*--------------services------------*/
@@ -216,6 +231,12 @@ h1{
   border: none;
   font-weight: 600;
   width: 216px;
+}
+
+.CTA-service :hover{
+  background-color: white;
+  border: solid;
+  color: black;
 }
 
 
