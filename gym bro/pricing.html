@@ -6,101 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Pricing Tables | CodingNepal</title>
     <link rel="stylesheet" href="pricing.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
 
 
-    <section id="header">
-        <nav>
-  
-            <a href="index.html"><img src="hq logo 1.svg" alt="brand logo"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times"onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="pricing.html">1:1 COACHING</a></li>
-                    <li><a href="shop.html">SHOP</a></li>
-                    <a href=""><button class="CTA">JOIN NOW</button></a>            
-                    
-                </ul>
-                
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-  
-        </nav>
-  
-    </section>
-
-
-  <div class="wrapper">
-    
-    <div class="table premium">
-      <div class="ribbon"><span>Recommend</span></div>
-      <div class="price-section">
-        <div class="price-area">
-          <div class="inner-area">
-            <span class="text">₺</span>
-            <span class="price">2500</span>
-          </div>
-        </div>
-
-
-      </div>
-        <div class="package-name"></div>
-            <ul class="features">
-                 <li>
-                    <span class="list-name">Five Existing Templates</span>
-                    <span class="icon check"><i class="fas fa-check"></i></span>
-                </li>
-                <li>
-                    <span class="list-name">100% Responsive Design</span>
-                    <span class="icon check"><i class="fas fa-check"></i></span>
-                </li>
-                <li>
-                    <span class="list-name">Credit Remove Permission</span>
-                    <span class="icon check"><i class="fas fa-check"></i></span>
-                </li>
-                <li>
-                    <span class="list-name">Lifetime Template Updates</span>
-                    <span class="icon cross"><i class="fas fa-times"></i></span>
-                </li>
-            </ul>
-      <div class="btn"><button>Purchase</button></div>
+  <navbar class="navbar-container">
+    <div class="logo-container">
+        <a href="home.html">Selcuk Fitness</a>
     </div>
 
-
-    <div class="table ultimate">
-      <div class="price-section">
-        <div class="price-area">
-          <div class="inner-area">
-            <span class="text">₺</span>
-            <span class="price">3500</span>
-          </div>
-        </div>
-      </div>
-      <div class="package-name"></div>
-      <ul class="features">
-
-        <li>
-          <span class="list-name">All Existing Templates</span>
-          <span class="icon check"><i class="fas fa-check"></i></span>
-        </li>
-        <li>
-          <span class="list-name">100% Responsive Design</span>
-          <span class="icon check"><i class="fas fa-check"></i></span>
-        </li>
-        <li>
-          <span class="list-name">Credit Remove Permission</span>
-          <span class="icon check"><i class="fas fa-check"></i></span>
-        </li>
-        <li>
-          <span class="list-name">Lifetime Template Updates</span>
-          <span class="icon check"><i class="fas fa-check"></i></span>
-        </li>
-      </ul>
-      <div class="btn"><button>Purchase</button></div>
+    <div class="bars">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
     </div>
+
+    <ul class="nav-items">
+      <li class="nav-link"><a href="home.html">Home</a></li>
+      <li class="nav-link"><a href="store.html">Shop</a></li>
+      <div class="login-register">
+          <a href="pricing.html" class="button">1:1 Coaching</a>
+      </div>
+  </ul>
+</navbar>
+ 
+  <div class="pricing-table">
+    <!-- 1 card -->
+    <div class="pricing-card">
+        <h3 class="pricing-card-header">STANDARD</h3>
+        <div class="price"> ₺2500/Month
+          </div>
+        <ul>
+            <li>Free control plane included</li>    
+            <li>Free control plane included</li>    
+            <li>Free control plane included</li>    
+        </ul>
+        <a href="#"><button class="CTA">CONTACT</button></a>    </a>                          
+    </div>
+
+    <!-- 2 card -->
+    <div class="pricing-card">
+        <h3 class="pricing-card-header">VIP</h3>
+        <div class="price"> ₺ 3500/yr
+          </div>
+        <ul>
+            <li>Deploy in seconds</li>
+            <li>Deploy in seconds</li>
+            <li>Deploy in seconds</li>
+             
+        </ul>
+        <a href="#"><button class="CTA">CONTACT</button></a>                          
+    </div>
+
+     
   </div>
+
+  <a href="https://itoroumoeka.netlify.app/"><button class="floater-signature"><img src="hq logo 1.svg"> <p>Built by Stevie Frank</p></button></a>
+
+
+  
+
+
+
+
+
+
 
 </body>
 </html>
